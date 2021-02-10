@@ -12,7 +12,8 @@ body{
     margin: auto;
     width: 60%;
     height: auto;
-    border: solid 0.2px rgb(170, 170, 184);
+    border: solid 0.2px rgb(22, 22, 27);
+    background-color: rgb(30, 57, 78);
     padding: 10px;
     padding-bottom: 40px;
 }
