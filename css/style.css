@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+#Text-h1{
+     text-align: center;
+    width: auto;
+    background-color:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Container{
+    margin: auto;
+    width: 60%;
+    height: auto;
+    border: solid 1px rgb(18, 15, 230);
+    padding: 5px;
+}
+.video{
+   width: 600px;
+   margin: auto;
+}
