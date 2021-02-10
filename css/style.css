@@ -1,22 +1,44 @@
 body{
-    background-color: black;
+    background-color: rgb(19, 17, 17);
     color: white;
 }
 #Text-h1{
      text-align: center;
     width: auto;
-    background-color:blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#Container{
+#vid-Container{
     margin: auto;
     width: 60%;
     height: auto;
-    border: solid 1px rgb(18, 15, 230);
-    padding: 5px;
+    border: solid 0.2px rgb(170, 170, 184);
+    padding: 10px;
+    padding-bottom: 40px;
 }
+#caption{
+    text-align: center;
+    
+}
+video:focus{
+    outline: none;
+}
+
 .video{
    width: 600px;
    margin: auto;
+   height: auto;
+}
+.videoPlayer{
+     border: 1px solid rgb(64, 63, 94);
+}
+.other-videos{
+    justify-content: center;
+        padding: 0px;
+        display:flex;
+}
+img{
+    padding:20px;
+    width: 390px;
+    height: 210px;
 }
